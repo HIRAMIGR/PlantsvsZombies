@@ -18,6 +18,7 @@ public class Peashooter : Character
     }
     private void OnEnable()
     {
+        //SoundManager.instance.Play(shooterPlantData.appearSound);
         health.Initialize();
         currentTarget = null;
         canAttack = true;
@@ -50,6 +51,7 @@ public class Peashooter : Character
     }
     private void Attack()
     {
+        SoundManager.instance.Play(shooterPlantData.attackSound);
         canAttack = false;
         StartCoroutine(AttackRoutine());
     }
@@ -72,6 +74,12 @@ public class Peashooter : Character
         bullet.SetActive(true);
         yield return new WaitForSeconds(shooterPlantData.fireRate);
         canAttack = true;
+    }
+    public override void Die()
+    {
+        ActivateTargetDetection(false);
+        SoundManager.instance.Play(shooterPlantData.deathSound);
+        base.Die();
     }
 }
  
