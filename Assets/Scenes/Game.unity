@@ -165,6 +165,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: land_garden (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
+      objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.33
@@ -309,6 +313,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: land_garden (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
+      objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.33
@@ -379,6 +387,23 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
   m_PrefabInstance: {fileID: 54768866}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &84126076 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6744744729678939030, guid: b3e8f0223eef07341a80b454e82186e8, type: 3}
+  m_PrefabInstance: {fileID: 7264308235349288583}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &84126081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84126076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdeaf05d158743944870bbacb3f0ec0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UILoopCamera
 --- !u!4 &88801230 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
@@ -395,6 +420,10 @@ PrefabInstance:
     - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_Name
       value: land_garden (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
       objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
@@ -477,6 +506,10 @@ PrefabInstance:
     - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_Name
       value: land_garden (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
       objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
@@ -680,6 +713,28 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!1 &136197411 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2851687759715767719, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+  m_PrefabInstance: {fileID: 1370211839}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &136197412 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4250932357843845909, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+  m_PrefabInstance: {fileID: 1370211839}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &136197416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136197411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdeaf05d158743944870bbacb3f0ec0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UILoopCamera
 --- !u!4 &143062032 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3927751198828774201, guid: 5662ebba44ce5fe43a1b1dd87e0d516e, type: 3}
@@ -745,6 +800,10 @@ PrefabInstance:
     - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_Name
       value: land_garden (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
       objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
@@ -1028,6 +1087,10 @@ PrefabInstance:
     - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_Name
       value: land_garden (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
       objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
@@ -1452,6 +1515,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: land_garden (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
+      objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.33
@@ -1838,19 +1905,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1019939825}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 21cfd42f3d2e58a4eaf6d2d3a6a3377e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.063318
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 21cfd42f3d2e58a4eaf6d2d3a6a3377e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.624963
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 21cfd42f3d2e58a4eaf6d2d3a6a3377e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.4449034
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 21cfd42f3d2e58a4eaf6d2d3a6a3377e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1923,6 +1990,11 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &344244608 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 21cfd42f3d2e58a4eaf6d2d3a6a3377e, type: 3}
+  m_PrefabInstance: {fileID: 344244605}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &356370925
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2273,6 +2345,10 @@ PrefabInstance:
     - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_Name
       value: land_garden (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
       objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
@@ -2662,6 +2738,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: land_garden (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
+      objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.33
@@ -2851,6 +2931,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 990650431815637021, guid: fc958925259a74dbd9512eda4f8ded4a, type: 3}
   m_PrefabInstance: {fileID: 537596785}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &547757410 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3302476747831448509, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+  m_PrefabInstance: {fileID: 1370211839}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Slider
 --- !u!1001 &556543077
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2924,6 +3015,10 @@ PrefabInstance:
     - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_Name
       value: land_garden (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
       objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
@@ -3398,6 +3493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: land_garden (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
+      objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.33
@@ -3475,6 +3574,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: land_garden (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
+      objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.33
@@ -3551,6 +3654,10 @@ PrefabInstance:
     - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_Name
       value: land_garden
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
       objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
@@ -3708,6 +3815,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: land_garden
       objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
+      objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.33
@@ -3785,6 +3896,10 @@ PrefabInstance:
     - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_Name
       value: land_garden (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
       objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
@@ -3930,6 +4045,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: land_garden (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
+      objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.33
@@ -4064,6 +4183,10 @@ PrefabInstance:
     - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_Name
       value: land_garden (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
       objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
@@ -4367,6 +4490,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: land_garden (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
+      objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.33
@@ -4633,6 +4760,10 @@ PrefabInstance:
     - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_Name
       value: land_garden (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
       objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
@@ -4990,6 +5121,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: land_garden (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
+      objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.33
@@ -5066,6 +5201,10 @@ PrefabInstance:
     - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_Name
       value: land_garden
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
       objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
@@ -5214,6 +5353,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: land_garden (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
+      objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.33
@@ -5353,6 +5496,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: land_garden (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
+      objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.33
@@ -5430,6 +5577,10 @@ PrefabInstance:
     - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_Name
       value: land_garden (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
       objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
@@ -5641,6 +5792,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: land_garden (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
+      objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.33
@@ -5785,6 +5940,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: land_garden (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
+      objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.33
@@ -5861,6 +6020,10 @@ PrefabInstance:
     - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_Name
       value: land_garden (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
       objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
@@ -6073,6 +6236,175 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4911498141463945729, guid: 3dd5ac78e5f8a442c94ffa793d1b7ff1, type: 3}
   m_PrefabInstance: {fileID: 1017629775}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1019939819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1019939825}
+  - component: {fileID: 1019939824}
+  - component: {fileID: 1019939823}
+  - component: {fileID: 1019939822}
+  - component: {fileID: 1019939821}
+  - component: {fileID: 1019939820}
+  - component: {fileID: 1019939826}
+  m_Layer: 3
+  m_Name: Flower
+  m_TagString: Plant
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1019939820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019939819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2cce2bcaf81ec540ab2ea0d897b4bb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Flower
+  characterAnimator: {fileID: 344244607}
+  initialRotationY: 90
+  blinkDuration: 3
+  zoneDetector: {fileID: 1019939823}
+  flowerData: {fileID: 11400000, guid: fdda0d31933e3404dafbd9333c9cc179, type: 2}
+--- !u!114 &1019939821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019939819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b7f992cdb5e4f74d831e03c9f515796, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  healthSlider: {fileID: 547757410}
+  onDeath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1019939820}
+        m_TargetAssemblyTypeName: Flower, Assembly-CSharp
+        m_MethodName: Die
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTakeDamage:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1019939822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019939819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 276de15129926f840a303d39635f7248, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Blink
+  blinkInterval: 0.2
+--- !u!135 &1019939823
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019939819}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 1.3326696
+  m_Center: {x: 0, y: 0.8326696, z: 0}
+--- !u!65 &1019939824
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019939819}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1.9793022, z: 1.544031}
+  m_Center: {x: 0, y: 0.884271, z: 0.065034926}
+--- !u!4 &1019939825
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019939819}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.5, y: 2.7, z: -0.98}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 344244608}
+  - {fileID: 136197412}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1019939826
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019939819}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!4 &1067783170 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
@@ -6156,6 +6488,10 @@ PrefabInstance:
     - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_Name
       value: land_garden (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
       objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
@@ -6424,6 +6760,10 @@ PrefabInstance:
     - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_Name
       value: land_garden (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
       objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
@@ -7118,6 +7458,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: land_garden (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
+      objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.33
@@ -7312,6 +7656,126 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1093107237810694663, guid: f56f01b115c934b64989066fa476eca6, type: 3}
   m_PrefabInstance: {fileID: 1370184688}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1370211839
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1019939825}
+    m_Modifications:
+    - target: {fileID: 1146870618520746260, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146870618520746260, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146870618520746260, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2851687759715767719, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      propertyPath: m_Name
+      value: HealthCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250932357843845909, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250932357843845909, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250932357843845909, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250932357843845909, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250932357843845909, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250932357843845909, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250932357843845909, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250932357843845909, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250932357843845909, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250932357843845909, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250932357843845909, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250932357843845909, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250932357843845909, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250932357843845909, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250932357843845909, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250932357843845909, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250932357843845909, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.955
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250932357843845909, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250932357843845909, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250932357843845909, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7176177468103182968, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7176177468103182968, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2851687759715767719, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 136197416}
+  m_SourcePrefab: {fileID: 100100000, guid: 05853fc58e59a7b418e9d478e2f8bb1a, type: 3}
 --- !u!1 &1370606883
 GameObject:
   m_ObjectHideFlags: 0
@@ -7990,6 +8454,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: land_garden (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
+      objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.33
@@ -8066,6 +8534,10 @@ PrefabInstance:
     - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_Name
       value: land_garden (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
       objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
@@ -8335,6 +8807,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: land_garden
       objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
+      objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.33
@@ -8413,6 +8889,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: land_garden (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
+      objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.33
@@ -8489,6 +8969,10 @@ PrefabInstance:
     - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_Name
       value: land_garden (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
       objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
@@ -8571,6 +9055,10 @@ PrefabInstance:
     - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_Name
       value: land_garden
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
       objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
@@ -8959,6 +9447,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: land_garden (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
+      objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.33
@@ -9231,6 +9723,10 @@ PrefabInstance:
     - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_Name
       value: land_garden (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
       objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
@@ -9528,6 +10024,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: land_garden (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
+      objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.33
@@ -9676,6 +10176,10 @@ PrefabInstance:
     - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_Name
       value: land_garden (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
       objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
@@ -9981,6 +10485,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: land_garden (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
+      objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.33
@@ -10182,6 +10690,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: land_garden (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
+      objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.33
@@ -10339,6 +10851,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: land_garden (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
+      objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.33
@@ -10415,6 +10931,10 @@ PrefabInstance:
     - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_Name
       value: land_garden (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
       objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
@@ -10555,6 +11075,10 @@ PrefabInstance:
     - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_Name
       value: land_garden (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
+      propertyPath: m_TagString
+      value: Zone
       objectReference: {fileID: 0}
     - target: {fileID: 7980827981607819060, guid: c601859cfa8db43908cbd040fa192589, type: 3}
       propertyPath: m_LocalScale.x
@@ -10779,7 +11303,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6744744729678939030, guid: b3e8f0223eef07341a80b454e82186e8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 84126081}
   m_SourcePrefab: {fileID: 100100000, guid: b3e8f0223eef07341a80b454e82186e8, type: 3}
 --- !u!1001 &8217166856169603095
 PrefabInstance:
@@ -10815,7 +11342,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6058227600578956682, guid: fa672aafb2b487a41a030f2d607398c1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.81
+      value: -17.58
       objectReference: {fileID: 0}
     - target: {fileID: 6058227600578956682, guid: fa672aafb2b487a41a030f2d607398c1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10823,7 +11350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6058227600578956682, guid: fa672aafb2b487a41a030f2d607398c1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.16
+      value: 1.98
       objectReference: {fileID: 0}
     - target: {fileID: 6058227600578956682, guid: fa672aafb2b487a41a030f2d607398c1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10877,4 +11404,4 @@ SceneRoots:
   - {fileID: 1917007481}
   - {fileID: 728261716}
   - {fileID: 824781}
-  - {fileID: 344244605}
+  - {fileID: 1019939825}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e4ff7b8a1f97354c82f6e949b814340, type: 3}
+  m_Name: FlowerData
+  m_EditorClassIdentifier: Assembly-CSharp::FlowerData
+  appearSound: flower_appear
+  attackSound: flower_attack
+  deathSound: flower_death
+  maxHealth: 100
+  sunPrefab: {fileID: 1695372873009167774, guid: 40b929d2862cabd428c1f8c524f930ae, type: 3}
+  sunOffsetY: 2
+  sunInterval: 5
+  sunAmount: 1
+  sunParticlePrefab: {fileID: 6493801638430934448, guid: 8f55f3c07929a5c4ebe7f02bb4119645, type: 3}

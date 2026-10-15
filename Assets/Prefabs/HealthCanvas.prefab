@@ -159,6 +159,7 @@ GameObject:
   - component: {fileID: 4577132390857611986}
   - component: {fileID: 8067428763285816055}
   - component: {fileID: 42087035822954789}
+  - component: {fileID: 4595399404618611926}
   m_Layer: 0
   m_Name: HealthCanvas
   m_TagString: Untagged
@@ -183,7 +184,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 2.242}
+  m_AnchoredPosition: {x: 0, y: 2.2420044}
   m_SizeDelta: {x: 100, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &4577132390857611986
@@ -250,6 +251,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &4595399404618611926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2851687759715767719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdeaf05d158743944870bbacb3f0ec0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UILoopCamera
 --- !u!1 &3695475796170949682
 GameObject:
   m_ObjectHideFlags: 0
