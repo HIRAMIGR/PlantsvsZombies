@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class WallNut : Character    
+public class WallNut : Plant    
 {
     [SerializeField]
     private float maxHealth;
