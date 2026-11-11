@@ -16,11 +16,11 @@ MonoBehaviour:
   - enemies:
     - enemyPrefab: {fileID: 5995772092233822555, guid: fa672aafb2b487a41a030f2d607398c1, type: 3}
       spawnTime: 1
-      landIndex: 0
+      laneIndex: 2
     - enemyPrefab: {fileID: 5995772092233822555, guid: fa672aafb2b487a41a030f2d607398c1, type: 3}
       spawnTime: 1
-      landIndex: 3
+      laneIndex: 0
     - enemyPrefab: {fileID: 5995772092233822555, guid: fa672aafb2b487a41a030f2d607398c1, type: 3}
       spawnTime: 1
-      landIndex: 4
+      laneIndex: 4
   currentIndex: 0

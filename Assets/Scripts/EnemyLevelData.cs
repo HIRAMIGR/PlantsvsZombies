@@ -11,5 +11,5 @@ public class EnemyData
 {
     public GameObject enemyPrefab;
     public float spawnTime;
-    public int landIndex;
+    public int laneIndex;
 }
