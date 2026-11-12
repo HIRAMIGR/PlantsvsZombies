@@ -19667,7 +19667,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Game
+          m_StringArgument: Map
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 234345927}
@@ -23793,6 +23793,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3625260931145313810, guid: 98f2162d9fcad52459efefd0a0e4101e, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5794735207082347975, guid: 98f2162d9fcad52459efefd0a0e4101e, type: 3}
+      propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5794735207082347975, guid: 98f2162d9fcad52459efefd0a0e4101e, type: 3}

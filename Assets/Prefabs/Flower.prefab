@@ -119,7 +119,7 @@ MonoBehaviour:
   characterAnimator: {fileID: 5684094770709512000}
   initialRotationY: 90
   blinkDuration: 3
-  price: 50
+  price: 25
   flowerData: {fileID: 11400000, guid: fdda0d31933e3404dafbd9333c9cc179, type: 2}
   zoneDetector: {fileID: 7042012381439180657}
 --- !u!54 &1267850978847464473
@@ -215,8 +215,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 2.72
-  m_Center: {x: 0, y: 0.8715464, z: 0}
+  m_Radius: 1.6439054
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &4195269388197742918
 Rigidbody:
   m_ObjectHideFlags: 0

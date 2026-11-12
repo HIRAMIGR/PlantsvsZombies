@@ -11,13 +11,16 @@ private EnemiesManager enemiesManager;
 private UnityEvent onLevelComplete;
 [SerializeField]
 private LevelsData levelsData;
-public void Initialize()
+
+    public void Initialize()
     {
+      
+
         onLevelStart?.Invoke();
+
+ 
+
         enemiesManager.SpawnEnemies(levelsData.CurrentLevel.enemies);
     }
-    public void CompleteLevel()
-    {
-        onLevelComplete?.Invoke();
-    }
+
 }

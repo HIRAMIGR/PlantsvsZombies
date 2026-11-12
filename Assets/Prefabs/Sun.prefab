@@ -90,7 +90,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51402fa767f3eed4980d6bde8c2499d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Sun
-  value: 25
+  value: 50
   sunParticles: {fileID: 7177991128484655659, guid: 59a35ab9f68edff40b6e5332bed330f5, type: 3}
   collectSound: collect_sun
   duration: 4
