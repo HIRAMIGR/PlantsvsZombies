@@ -1,11 +1,11 @@
 using UnityEngine;
-
+ 
 [System.Serializable]
 public class EnemyLevelData
 {
     public EnemyData[] enemies;
 }
-
+ 
 [System.Serializable]
 public class EnemyData
 {
@@ -13,3 +13,4 @@ public class EnemyData
     public float spawnTime;
     public int laneIndex;
 }
+ 
