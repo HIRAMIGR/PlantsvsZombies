@@ -32,6 +32,10 @@ public class Bonk : AttackingPlant
             target.TakeDamage(bonkData.damage);
             PoolManager.Instance.GetObject(bonkData.hitParticles,
                 target.transform.position);
+                if (target.IsDead)
+            {
+                ClearTarget();
+            }
         }
         yield return new WaitForSeconds(bonkData.attackRate);
         SetCanAttack(true);
