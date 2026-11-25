@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2bc791e2ba5f33b4ab5b032d020ef0a9, type: 3}
-  m_Name: ShooterPlant
+  m_Name: ShooterPlantData
   m_EditorClassIdentifier: Assembly-CSharp::ShooterPlantData
   appearSound: peashooter_appear
   attackSound: peashooter_shoot
@@ -22,3 +22,5 @@ MonoBehaviour:
   bulletPrefab: {fileID: 826390530689983635, guid: 5dd68489227a4bd4a896da88cf2aa733, type: 3}
   shootTime: 1
   fireRate: 2
+  numberOfBullets: 1
+  shotBulletsDelay: 0.2

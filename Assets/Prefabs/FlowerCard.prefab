@@ -321,6 +321,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  plantCardType: 1
 --- !u!114 &5114222072680501271
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -102,10 +102,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WallNut
   characterAnimator: {fileID: 7846709538483827191}
-  initialRotationY: 0
+  initialRotationY: -90
   blinkDuration: 3
   price: 100
-  maxHealth: 100
+  maxHealth: 300
 --- !u!114 &3323711238085151070
 MonoBehaviour:
   m_ObjectHideFlags: 0

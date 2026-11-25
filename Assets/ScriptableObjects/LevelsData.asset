@@ -26,13 +26,7 @@ MonoBehaviour:
     - enemyPrefab: {fileID: 5995772092233822555, guid: fa672aafb2b487a41a030f2d607398c1, type: 3}
       spawnTime: 9
       laneIndex: 4
-    cardLevels:
-    - plantName: 
-      cardPrefab: {fileID: 2258273504505607132, guid: 48ef293b5a7bc704f8c512bcd7e6df4b, type: 3}
-    - plantName: 
-      cardPrefab: {fileID: 4617439742199143042, guid: f4b34f0216174444db4af3c0aae567c9, type: 3}
-    - plantName: 
-      cardPrefab: {fileID: 7768368620595106380, guid: f6c4808c2702fae419c288f61988d2ea, type: 3}
+    cardLevels: 0000000001000000
   - enemies:
     - enemyPrefab: {fileID: 5995772092233822555, guid: fa672aafb2b487a41a030f2d607398c1, type: 3}
       spawnTime: 5
@@ -46,7 +40,7 @@ MonoBehaviour:
     - enemyPrefab: {fileID: 5995772092233822555, guid: fa672aafb2b487a41a030f2d607398c1, type: 3}
       spawnTime: 12
       laneIndex: 4
-    cardLevels: []
+    cardLevels: 000000000100000002000000
   - enemies:
     - enemyPrefab: {fileID: 5995772092233822555, guid: fa672aafb2b487a41a030f2d607398c1, type: 3}
       spawnTime: 5
@@ -63,7 +57,7 @@ MonoBehaviour:
     - enemyPrefab: {fileID: 5995772092233822555, guid: fa672aafb2b487a41a030f2d607398c1, type: 3}
       spawnTime: 6
       laneIndex: 4
-    cardLevels: []
+    cardLevels: 00000000010000000200000003000000
   - enemies:
     - enemyPrefab: {fileID: 5995772092233822555, guid: fa672aafb2b487a41a030f2d607398c1, type: 3}
       spawnTime: 5
@@ -95,5 +89,5 @@ MonoBehaviour:
     - enemyPrefab: {fileID: 5995772092233822555, guid: fa672aafb2b487a41a030f2d607398c1, type: 3}
       spawnTime: 16
       laneIndex: 4
-    cardLevels: []
+    cardLevels: 00000000010000000200000003000000
   currentIndex: 0
