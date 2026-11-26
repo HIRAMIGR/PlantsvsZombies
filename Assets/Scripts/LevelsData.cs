@@ -14,6 +14,7 @@ public class LevelsData : ScriptableObject
 public class LevelData
 {
     public EnemyData[] enemies;
-    public PlantCardType[] cardLevels;
+    public GameObject[] cardLevels;
+    public Material skyboxMaterial;
 }
  
